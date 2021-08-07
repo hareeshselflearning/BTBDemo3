@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- <suite name="Bartleby - Regression Test Suite" thread-count="4" parallel="tests"> -->
+
+<suite name="Bartleby Compass - Regression Suite">
+	<test name="BTB_Test_CI">
+		<classes>
+			<class name="com.btb.citest.BtbLaunch"></class>
+		</classes>
+	</test>
+</suite>
